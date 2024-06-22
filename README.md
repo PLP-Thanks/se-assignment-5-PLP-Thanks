@@ -45,11 +45,12 @@ Answer the following questions based on your understanding of the installation a
     --Navigate to specific symbol or function in the current file.
     --Observe problems in the current file.
     --Access code actions like refactoring or formatting code
-    --Quick open of files, and folders
+    --Quick open of files, and 
+    --Navigate to the settings to modify your code editor e.t.c
     --Enables you search for and execute any command provided by VsCode.
 5. Extensions in VS Code:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
-   ---- The extensions enables yuou to add lnaguages, debuggers and tools to your installation to support your development work flow. It also provides setting for tunning its behaviour which you can find the settings Editor.
+   ---- The extensions enables you to add languages, debuggers and tools to your installation to support your development work flow. It also provides setting for tunning its behaviour which you can find the settings Editor.
 
    ---- Once you open the VS Code, to find the extensions you can press a shortcut Ctrl + shift + x, then type in the search box for the extension of your choice. To install an extension, select the install button and once installation is complete, the install button will change to the manage gear button. To manage the extensions, you can install, disable, update, unistall extensions through the extensions view, the command palette or command-line switches
 
@@ -63,6 +64,7 @@ Answer the following questions based on your understanding of the installation a
 ----To toggle the terminal panel, use the Ctrl+` keyboard shortcut.
 ----To create a new terminal, use the Ctrl+Shift+` keyboard shortcut.
 
+The advantages of using the integrated terminal compared to an external terminal
 ----The integrated terminal, provides integration with the editor to support features links abd error detection.
 ---- It can run commands such as mkdir (to make a directory) and git.
 ---- It has additional functionality called shell integration which tracks where commands are run with decorations on the left of a command and in the scroll bar.
@@ -71,20 +73,20 @@ Answer the following questions based on your understanding of the installation a
 7. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
 ---- To create, open, and manage files and folders in Visual Studio Code (VS Code):
-   --Create a new file: Click File > New File or press Ctrl/Cmd + N.
-   --Open an existing file: Click File > Open File or press Ctrl/Cmd + O.
-   --Create a new folder: In the Explorer view, right-click and select New Folder, or press Ctrl/Cmd + Shift + N.
-   --Open a folder: Click File > Open Folder or press Ctrl/Cmd + K followed by Ctrl/Cmd + O.
+   --Create a new file: Click File > New File or press Ctrl + N.
+   --Open an existing file: Click File > Open File or press Ctrl + O.
+   --Create a new folder: In the Explorer view, right-click and select New Folder, or press Ctrl + Shift + N.
+   --Open a folder: Click File > Open Folder or press Ctrl + K followed by Ctrl + O.
    --Manage files/folders: Use drag-and-drop, F2 for renaming, Delete for deleting, and right-click for additional options.
-   --Remember to save your work regularly by clicking File > Save or pressing Ctrl/Cmd + S.
+   --Remember to save your work regularly by clicking File > Save or pressing Ctrl + S.
 
 ----Users can efficiently navigate between different files and directories in VS Code using the following features:
---Explorer view: Access the Explorer view (left sidebar) to see the file structure and navigate to different files and directories.
---Go to File: Press Ctrl/Cmd + P to open the Go to File dialog, where you can quickly type the file name to navigate.
---Go to Symbol in File: Press Ctrl/Cmd + Shift + O to navigate quickly within the currently active file.
---Go to Line: Press Ctrl/Cmd + G to navigate to a specific line in the currently active file.
-File navigation history: Use Ctrl/Cmd + Tab to cycle through recently opened files.
---Workspaces: Create and manage workspaces to group related files and directories together for easy navigation.
+   --Explorer view: Access the Explorer view (left sidebar) to see the file structure and navigate to different files and directories.
+   --Go to File: Press Ctrl + P to open the Go to File dialog, where you can quickly type the file name to navigate.
+   --Go to Symbol in File: Press Ctrl + Shift + O to navigate quickly within the currently active file.
+   --Go to Line: Press Ctrl + G to navigate to a specific line in the currently active file.
+   File navigation history: Use Ctrl + Tab to cycle through recently opened files.
+   --Workspaces: Create and manage workspaces to group related files and directories together for easy navigation.
 
 8. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
